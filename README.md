@@ -1,20 +1,20 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AI English Tutor: Landing Page
 
-# Run and deploy your AI Studio app
+Landing page que apresenta o AI English Tutor e explica como a IA personaliza o aprendizado de inglês.
 
-This contains everything you need to run your app locally.
+**[Experimentar o tutor no Hugging Face](https://huggingface.co/spaces/Enzzozink/tutor-ingles-ia)**
 
-View your app in AI Studio: https://ai.studio/apps/drive/1T34tCvS86hemIniLdWuxrjC9nEPfokaR
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-## Run Locally
+Este repositório contém somente a landing page. O tutor roda em um Space separado no Hugging Face.
 
-**Prerequisites:**  Node.js
+## Seções
 
+Problema e solução, como funciona, benefícios, planos, depoimentos e perguntas frequentes. Cada seção é um componente em `components/`.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Como rodar
+
+```bash
+npm install
+npm run dev
+```
